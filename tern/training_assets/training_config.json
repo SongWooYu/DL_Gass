@@ -1,0 +1,28 @@
+{
+  "processed_dir": "/workspace/turm/processed",
+  "split_manifest": "/workspace/turm/processed/split_manifest.csv",
+  "input_len": 100,
+  "input_seconds": 10.0,
+  "sensors": [
+    "Accelerometer",
+    "GasLeak",
+    "Pressure_1",
+    "Pressure_2",
+    "Temperature_1",
+    "Temperature_2"
+  ],
+  "horizons": {
+    "3s": 30,
+    "6s": 60,
+    "30s": 300,
+    "60s": 600,
+    "120s": 1200
+  },
+  "scaler_stats_csv": "/workspace/turm/training_assets/scaler_stats.csv",
+  "scaler_stats_npz": "/workspace/turm/training_assets/scaler_stats.npz",
+  "window_summary_csv": "/workspace/turm/training_assets/window_summary.csv",
+  "naive_baseline_mae_csv": "/workspace/turm/training_assets/naive_baseline_mae.csv",
+  "target_definition": "y = values[start + input_len - 1 + horizon_steps]",
+  "window_definition": "X = values[start : start + input_len]",
+  "scaling_rule": "fit mean/std on train episodes only; apply same scaler to train/val/test and to both X/y"
+}

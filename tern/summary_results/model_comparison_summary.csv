@@ -1,0 +1,4 @@
+﻿run_dir,model_type,horizon,horizon_steps,test_mae_scaled,test_loss_scaled,test_mae_raw_mean,model_path,naive_mae_raw_mean,naive_mae_scaled,delta_vs_naive_raw,improvement_vs_naive_raw_percent,horizon_order
+/workspace/DeepLearning/tern/runs_cnn1d_3s,cnn1d,3s,30,0.06448832154273987,0.008734279312193394,4.3831098849095405,/workspace/DeepLearning/tern/runs_cnn1d_3s/best_cnn1d_3s.keras,3.9790453998827022,0.059064344129013,0.4040644850268382,-10.154809619381313,0
+/workspace/DeepLearning/tern/runs_gru_3s,gru,3s,30,0.05388306826353073,0.0056335642002522945,3.705089689877008,/workspace/DeepLearning/tern/runs_gru_3s/best_gru_3s.keras,3.9790453998827022,0.059064344129013,-0.2739557100056942,6.884960649450496,0
+/workspace/DeepLearning/tern/runs_lstm_3s,lstm,3s,30,0.056581415235996246,0.006092583294957876,3.9286582469940186,/workspace/DeepLearning/tern/runs_lstm_3s/best_lstm_3s.keras,3.9790453998827022,0.059064344129013,-0.05038715288868367,1.2663125907075359,0

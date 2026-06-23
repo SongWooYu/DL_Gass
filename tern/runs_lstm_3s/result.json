@@ -1,0 +1,28 @@
+{
+  "horizon": "3s",
+  "horizon_steps": 30,
+  "input_len": 100,
+  "input_seconds": 10.0,
+  "test_scaled_metrics": {
+    "loss": 0.006092583294957876,
+    "compile_metrics": 0.056581415235996246
+  },
+  "test_raw_mae_mean": 3.9286582469940186,
+  "test_raw_mae_per_sensor": {
+    "Accelerometer": 0.0018212917493656278,
+    "GasLeak": 19.250062942504883,
+    "Pressure_1": 0.06095196679234505,
+    "Pressure_2": 0.05818334221839905,
+    "Temperature_1": 2.0957529544830322,
+    "Temperature_2": 2.105177640914917
+  },
+  "sensors": [
+    "Accelerometer",
+    "GasLeak",
+    "Pressure_1",
+    "Pressure_2",
+    "Temperature_1",
+    "Temperature_2"
+  ],
+  "model_path": "/workspace/DeepLearning/tern/runs_lstm_3s/best_lstm_3s.keras"
+}

@@ -1,0 +1,11 @@
+﻿requirement,status,evidence
+6개 센서 입력,충족,6개 센서를 모두 입력 feature로 사용
+6개 센서 동시 출력,충족,모델 출력 차원 6
+3s/6s/30s/60s/120s 예측,충족,5개 horizon 전체 실험 완료
+LSTM/GRU/1D CNN 계열 사용,충족,"CNN1D, GRU, LSTM 비교"
+episode 경계 분리,충족,episode 내부에서만 window 생성
+train/validation/test 분리,충족,episode 단위 700/150/150 분리
+전처리 및 EDA,충족,"scaler, window, baseline, pairplot, heatmap 생성"
+성능 평가,충족,naive 대비 raw MAE 및 개선율 비교
+학습 안정성 검증,부분 충족,"training curve 확인, 장기 horizon 정규화 실험 진행"
+보고서 작성,진행 중,"데이터 이해/전처리 초안 완료, 모델 평가 파트 작성 필요"

@@ -170,7 +170,7 @@ def build_requirement_checklist():
     return pd.DataFrame([
         ["6개 센서 입력", "충족", "6개 센서를 모두 입력 feature로 사용"],
         ["6개 센서 동시 출력", "충족", "모델 출력 차원 6"],
-        ["3s/6s/30s/60s/120s 예측", "충족", "5개 horizon 전체 실험 완료"],
+        ["3s/9s/30s/60s/120s 예측", "충족", "최종 요구 5개 horizon 전체 실험 완료"],
         ["LSTM/GRU/1D CNN 계열 사용", "충족", "CNN1D, GRU, LSTM 비교"],
         ["episode 경계 분리", "충족", "episode 내부에서만 window 생성"],
         ["train/validation/test 분리", "충족", "episode 단위 700/150/150 분리"],

@@ -29,10 +29,11 @@ import matplotlib.pyplot as plt
 
 HORIZON_ORDER = {
     "3s": 0,
-    "6s": 1,
+    "9s": 1,
     "30s": 2,
     "60s": 3,
     "120s": 4,
+    "6s": 99,
 }
 
 

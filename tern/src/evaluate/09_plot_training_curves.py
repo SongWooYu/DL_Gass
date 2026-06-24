@@ -10,10 +10,11 @@ import matplotlib.pyplot as plt
 
 HORIZON_ORDER = {
     "3s": 0,
-    "6s": 1,
+    "9s": 1,
     "30s": 2,
     "60s": 3,
     "120s": 4,
+    "6s": 99,
 }
 
 
@@ -33,7 +34,7 @@ def parse_run_name(run_dir: Path):
 
     body = name.replace("runs_", "")
 
-    for horizon in ["120s", "60s", "30s", "6s", "3s"]:
+    for horizon in ["120s", "60s", "30s", "9s", "6s", "3s"]:
         suffix = "_" + horizon
         if body.endswith(suffix):
             model_type = body[: -len(suffix)]

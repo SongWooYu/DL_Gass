@@ -1,0 +1,29 @@
+{
+  "model_type": "lstm",
+  "horizon": "9s",
+  "horizon_steps": 90,
+  "input_len": 100,
+  "input_seconds": 10.0,
+  "test_scaled_metrics": {
+    "loss": 0.010361401364207268,
+    "mae": 0.07313753664493561
+  },
+  "test_raw_mae_mean": 4.999647213593622,
+  "test_raw_mae_per_sensor": {
+    "Accelerometer": 0.002398228535056114,
+    "GasLeak": 24.45598442993164,
+    "Pressure_1": 0.07960415849685669,
+    "Pressure_2": 0.07566786237955093,
+    "Temperature_1": 2.624306577682495,
+    "Temperature_2": 2.7599220245361327
+  },
+  "naive_comparison": {
+    "test_naive_mae_raw": 6.863896274030732,
+    "test_naive_mae_scaled": 0.1022045116451947
+  },
+  "model_path": "/workspace/DeepLearning/tern/outputs/runs/runs_lstm_9s/best_lstm_9s.keras",
+  "history_csv": "/workspace/DeepLearning/tern/outputs/runs/runs_lstm_9s/history.csv",
+  "sensor_mae_csv": "/workspace/DeepLearning/tern/outputs/runs/runs_lstm_9s/test_sensor_mae.csv",
+  "delta_vs_naive_raw": -1.8642490604371096,
+  "improvement_vs_naive_raw_percent": 27.160216093160074
+}

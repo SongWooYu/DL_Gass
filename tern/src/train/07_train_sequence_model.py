@@ -6,7 +6,7 @@
 목적
 - 동일한 데이터 분할, 동일한 scaler, 동일한 평가 방식으로 여러 딥러닝 예측 모델을 학습한다.
 - 지원 모델: dense, cnn1d, gru, lstm
-- 지원 horizon: 3s, 6s, 30s, 60s, 120s
+- 지원 horizon: 3s, 6s, 9s, 30s, 60s, 120s
 
 입력
 - processed/split_manifest.csv
@@ -60,6 +60,7 @@ SENSORS = [
 HORIZONS = {
     "3s": 30,
     "6s": 60,
+    "9s": 90,
     "30s": 300,
     "60s": 600,
     "120s": 1200,

@@ -1,0 +1,8 @@
+﻿model_type,horizon,sensor,test_mae_raw
+cnn1d,9s,Accelerometer,0.002606219506636262
+cnn1d,9s,GasLeak,26.7652697265625
+cnn1d,9s,Pressure_1,0.08705298631191254
+cnn1d,9s,Pressure_2,0.08383306229114533
+cnn1d,9s,Temperature_1,2.878355109024048
+cnn1d,9s,Temperature_2,2.9869888763427737
+cnn1d,9s,ALL_MEAN,5.4673509966731695
